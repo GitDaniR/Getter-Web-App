@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getter App - Sign-Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "divider">
+        <!--Our logo was created with https://www.craiyon.com -->
+        <img src="siteLogo.gif" id = "logo" alt="Getter Logo">
+    </div>
+    <div class = "divider">
+        <form id = "signUpForm"  action="index.html">
+            <label>Username</label> <input> </input>
+            <label>Password</label> <input type="password"> </input>
+            <label>Full name</label> <input> </input>
+            <label>Address</label> <input> </input>
+            <label>Country</label>
+            <select>
+                <option value="NL">Netherlands</option>
+                <option value="GER">Germany</option>
+                <option value="BG">Bulgaria</option>
+            </select>
+            <label>ZIP code</label> <input> </input>
+            <label>Email</label> <input type="email"> </input>
+            <label>Sex</label>
+            <span style="display: inline;">
+                <input type="radio" id = "male" name="sex" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id = "female" name="sex" value="Female">
+                <label for="female">Female</label>
+                <input type="radio" id = "other" name="sex" value="Other">
+                <label for="other">Other</label>
+            </span>
+            <label>Language</label>
+            <select>
+                <option value="eng">English</option>
+                <option value="nl">Dutch</option>
+                <option value="ger">German</option>
+            </select>
+            <label>Bio</label> <textarea rows="5" cols="5" style="resize: none;"> </textarea>
+            <label>Favourite color</label> <input type="color"> </input>
+            <div></div>
+            <button class = "specialButton">Sign-Up</button>
+        </form>
+        <div class = "bottomMessage">
+            <label>If you already have an account, you can go back to the <a href="index.html">log-in page</a> and start setting goals!</label>
+        </div>
+    </div>
+</body>
+</html>

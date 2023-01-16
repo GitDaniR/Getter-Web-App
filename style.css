@@ -1,0 +1,114 @@
+html, body {
+    height: max-content;
+    margin: 0;
+    padding: 0;
+    /* This background was created with the help of this tool https://cssgradient.io */
+    background: linear-gradient(90deg, rgba(4,234,248,0.5) 10%, rgba(0,255,214,0.5) 70%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.divider {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+#logo {
+    width: 40%;
+    height: 40%;
+    margin: 25%;
+}
+
+#logInForm {
+    margin: 35%;
+    margin-bottom: 5%;
+    display:grid;
+    gap: 5px;
+}
+
+#signUpForm {
+    margin: 15%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    display:grid;
+    gap: 5px;
+    grid-template-columns: 25% 65%;
+}
+
+input {
+    padding: 2px;
+}
+
+.specialButton {
+    width: 150px;
+    margin: auto;
+}
+
+.bottomMessage {
+    width: 450px;
+    margin-inline: 25%;
+    text-align: center;
+}
+
+#hiddenDiv {
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    width: 80px;
+    height: 80px;
+}
+
+#easterEgg {
+    display: none;
+}
+
+#hiddenDiv:hover #easterEgg {
+    display:block;
+}
+
+header {
+    height: 15px;
+    padding: 10px;
+    margin-inline: 10px;
+}
+
+.alignLeft {
+    float: left;
+}
+
+.alignRight {
+    float: right;
+}
+
+.goalCreator {
+    display: block;
+    padding: 10px;
+}
+
+.creatorField {
+    margin: 10px;
+}
+
+#goalCatalog {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.goal {
+    border-style: dashed;
+    margin: 5px;
+    padding: 10px;
+    min-width: 450px;
+    width: 45%;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+.goalDescription {
+    text-align: justify;
+}

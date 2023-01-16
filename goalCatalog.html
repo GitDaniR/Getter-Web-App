@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getter App - Goal Catalog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <label class = "alignLeft">Hello, User!</label>
+        <a class = "alignRight" href="index.html">Log-Out</a>
+    </header>
+    <div>
+        <form class = "goalCreator">
+            <div class = "creatorField">
+                <label>Goal name</label><br> <input></input>
+            </div>
+            <div class = "creatorField">
+                <label>Description</label><br> <textarea rows="6" cols="60" style="resize: none;"></textarea>
+            </div>
+            <div class = "creatorField">
+                <label>Due date</label><br> <input type="date"></input>
+            </div>
+            <div class = "creatorField">
+                <button>Add Goal</button>
+            </div>
+        </form>
+    </div>
+    <div id = "goalCatalog">
+        <div class = "goal">
+            <div style = "height: 25px;">
+                <label class = "alignLeft boldText">Web Assignment 1</label>
+                <label class = "alignRight boldText">Due date: 16.01.2023</label>
+            </div>
+            <div class = "goalDescription">
+                <label>Description</label>
+                <p> Create a goal-setting application.
+                    In this project, your primary responsibility will be to design a web-based application that
+                    enables users to set goals to achieve their targets.</p>
+            </div>
+            <div class = "subgoalList">
+                <div>
+                    <input type = "checkbox"> </input>
+                    <label>short desc.</label>
+                </div>
+                <div>
+                    <input type = "checkbox" disabled = "true"></input>
+                    <label>short desc.</label>
+                    <input type="range" min = "0" max = "10" value = "9" style = "height: 5px;"></input>
+                    <label>Progress: 9/10</label>
+                </div>
+                <div>
+                    <input type = "checkbox" disabled = "true"> </input>
+                    <label>short desc.</label>
+                    <input style = "width: 60px;"></input>
+                    <button>Update progress</button>
+                    <label>Progress: 0/7</label>
+                </div>
+            </div>
+            <div class = "subgoalCreator">
+                <form>
+                    <label>Goal type</label>
+                    <select>
+                        <option value="boolean">Done/Not done</option>
+                        <option value="numeric">Numeric</option>
+                        <option value="monetary">Monetary</option>
+                    </select><br>
+                    <label>Short Description</label> <input></input><br>
+                    <label>Amount</label> <input></input><br>
+                    <button>Add Subgoal</button>
+                </form>
+            </div>
+        </div>
+        <div class = "goal">
+            <div style = "height: 25px;">
+                <label class = "alignLeft boldText">Web Assignment 1</label>
+                <label class = "alignRight boldText">Due date: 16.01.2023</label>
+            </div>
+            <div class = "goalDescription">
+                <label>Description</label>
+                <p> Create a goal-setting application.
+                    In this project, your primary responsibility will be to design a web-based application that
+                    enables users to set goals to achieve their targets.</p>
+            </div>
+            <div class = "subgoalList">
+                <div>
+                    <input type = "checkbox"> </input>
+                    <label>short desc.</label>
+                </div>
+                <div>
+                    <input type = "checkbox" disabled = "true"></input>
+                    <label>short desc.</label>
+                    <input type="range" min = "0" max = "10" value = "9" style = "height: 5px;"></input>
+                    <label>Progress: 9/10</label>
+                </div>
+                <div>
+                    <input type = "checkbox" disabled = "true"> </input>
+                    <label>short desc.</label>
+                    <input style = "width: 60px;"></input>
+                    <button>Update progress</button>
+                    <label>Progress: 0/7</label>
+                </div>
+            </div>
+            <div class = "subgoalCreator">
+                <form>
+                    <label>Goal type</label>
+                    <select>
+                        <option value="boolean">Done/Not done</option>
+                        <option value="numeric">Numeric</option>
+                        <option value="monetary">Monetary</option>
+                    </select><br>
+                    <label>Short Description</label> <input></input><br>
+                    <label>Amount</label> <input></input><br>
+                    <button>Add Subgoal</button>
+                </form>
+            </div>
+        </div>
+        <div class = "goal">
+            <div style = "height: 25px;">
+                <label class = "alignLeft boldText">Web Assignment 1</label>
+                <label class = "alignRight boldText">Due date: 16.01.2023</label>
+            </div>
+            <div class = "goalDescription">
+                <label>Description</label>
+                <p> Create a goal-setting application.
+                    In this project, your primary responsibility will be to design a web-based application that
+                    enables users to set goals to achieve their targets.</p>
+            </div>
+            <div class = "subgoalList">
+                <div>
+                    <input type = "checkbox"> </input>
+                    <label>short desc.</label>
+                </div>
+                <div>
+                    <input type = "checkbox" disabled = "true"></input>
+                    <label>short desc.</label>
+                    <input type="range" min = "0" max = "10" value = "9" style = "height: 5px;"></input>
+                    <label>Progress: 9/10</label>
+                </div>
+                <div>
+                    <input type = "checkbox" disabled = "true"> </input>
+                    <label>short desc.</label>
+                    <input style = "width: 60px;"></input>
+                    <button>Update progress</button>
+                    <label>Progress: 0/7</label>
+                </div>
+            </div>
+            <div class = "subgoalCreator">
+                <form>
+                    <label>Goal type</label>
+                    <select>
+                        <option value="boolean">Done/Not done</option>
+                        <option value="numeric">Numeric</option>
+                        <option value="monetary">Monetary</option>
+                    </select><br>
+                    <label>Short Description</label> <input></input><br>
+                    <label>Amount</label> <input></input><br>
+                    <button>Add Subgoal</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
